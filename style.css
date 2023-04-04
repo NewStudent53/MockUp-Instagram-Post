@@ -1,0 +1,202 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.Box {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  margin: 10px 0 15px;
+}
+
+.column {
+  width: 65%;
+  margin-top: 30px;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div {
+    background-color: #fafafa;
+}
+
+.hidden {
+  display: none;
+}
+
+.Icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+  
+.Icons svg {
+  cursor: pointer;
+}
+
+.likes {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #4d4d4f;
+}
+  
+main {
+  width: 100%;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  background-color: #fafafa;
+}
+
+.message {
+  font-weight: 400;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5em;
+}
+  
+.message b {
+  color: #262626;
+}
+  
+.message span {
+  cursor: pointer;
+  color: #1d92ff;
+}
+
+.Profile {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+
+/**Shared Functions*/
+.action .profile {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+  
+.action .profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.column .info {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  /* min-height: 400px; */
+  display: inline-block;
+  border: 1px solid rgba(7, 7, 7, 0.24);
+}
+
+.column .info .top-content {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+  
+.column .info .bottom {
+  padding: 10px 20px;
+}
+  
+.column .info .top-content .Rigoberto {
+  width: 100%;
+  display: flex;
+  align-items: right;
+}
+
+.column .info .top-content .Rigoberto h3 {
+  /* width: 100%; */
+  font-size: 16px;
+  color: #4d4d4f;
+  font-weight: 500;
+  line-height: 1em;
+}
+  
+.column .info .top-content .Rigoberto h3 span {
+  font-size: 0.75em;
+}
+
+.container .logo {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Icons .left svg {
+  margin-right: 8px;
+}
+  
+main .container {
+  position: relative;
+  margin-top: 60px;
+  width: 75%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* background: #ddd; */
+}
+  
+.Profile .profile_img {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(to right, red, orange);
+  padding: 2px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+  
+.Profile .profile_img .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  border: 2px solid white;
+}
+  
+.Profile .profile_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
